@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-Fabric script methods:
+Fabricc script methods:
 do_pack: packs web_static/ files into .tgz archive
 do_deploy: deploys archive to webservers
 deploy: do_packs && do_deploys
+h
 """
 from fabric.api import local, env, put, run
 from time import strftime
